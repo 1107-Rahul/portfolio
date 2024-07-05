@@ -1,6 +1,8 @@
 import React from 'react'
 import { StickyScroll } from '@/components/ui/sticy-glare';
 import Image from 'next/image';
+import { IoLogoHtml5 } from "react-icons/io5";
+import { FaCss3Alt } from "react-icons/fa6";
 
 const content = [
     {
@@ -39,9 +41,35 @@ const Work = () => {
   return (
     <div className='h-[70rem] w-full pl-[40px] bg-neutral-950' >
     <div className="p-10">
-      <h1 className='heading'>Projects</h1>
+      <h1 className='heading mb-3'>Projects</h1>
       <StickyScroll content={content} />
-      
+      <div className='flex flex-row'>
+      <div className="bg-white inline-block h-20 w-20 m-5" style={{ borderRadius: "10%" }}>
+        <svg
+          width="100%"
+          height="100%"
+          viewBox="0 0 250 250"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          className="h-full w-full">
+          <IoLogoHtml5 size="100%" />
+        </svg>
+      </div>
+      <div className="bg-white inline-block h-20 w-20 m-5" style={{ borderRadius: "10%" }}>
+        <svg
+          width="100%"
+          height="100%"
+          viewBox="0 0 250 250"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          className="h-full w-full">
+          <FaCss3Alt size="100%" />
+        </svg>
+      </div>
+      <div className="bg-white inline-block h-20 w-20 m-5" style={{ borderRadius: "10%" }}>
+        
+      </div>
+      </div>
     </div>
   </div>
   

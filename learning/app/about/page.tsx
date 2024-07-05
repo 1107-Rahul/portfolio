@@ -1,10 +1,13 @@
+"use client"
 import { GlareCard } from '@/components/ui/glare-card'
 import React from 'react'
 import { FaReact } from "react-icons/fa";
 import { FaJava } from "react-icons/fa6";
+import HomePage from '../_pages/Home';
 const About = () => {
   return (
     <div className=' h-[40rem] w-full pl-[40px] bg-neutral-950'>
+    
         <h1 className='heading'>Overview</h1>
         <p className='text-[#808080] w-[1000px] m-2'>An aspiring learner and problem solver with hands-on real-time project work experience in Web-Based Application 
         Development, Management, and Project operations. Played a leadership and an important role voluntarily when required 
