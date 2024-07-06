@@ -11,6 +11,11 @@ import Final from "./contact/final";
 export default function Home() {
   const navItems = [
     {
+      name: "Home",
+      link: "#home",
+      icon: <IconHome className="h-4 w-4 text-neutral-500 dark:text-white" />,
+    },
+    {
       name: "About",
       link: "#about",
       icon: <IconHome className="h-4 w-4 text-neutral-500 dark:text-white" />,
@@ -32,7 +37,7 @@ export default function Home() {
   return (
     <div className="relative w-full bg-neutral-950">
       <FloatingNav navItems={navItems} />
-      <div>
+      <div id="home">
         <HomePage />
       </div>
       <div id="about">
