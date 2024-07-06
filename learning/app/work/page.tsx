@@ -43,32 +43,97 @@ const Work = () => {
     <div className="p-10">
       <h1 className='heading mb-3'>Projects</h1>
       <StickyScroll content={content} />
+      <div className='flex flex-col'>
+        <div className='flex flex-row ml-14'>
+        <div className="p-9">
+          <div className='h-[60px] w-[60px]'>
+            <img src="./images/htmllogo.png" alt=''/>
+          </div>
+        </div>
+        <div className="p-9">
+          <div className='h-[60px] w-[60px]'>
+            <img src="./images/csslogo.png" alt=''/>
+          </div>
+        </div>
+        <div className="p-9">
+          <div className='h-[60px] w-[60px]'>
+            <img src="./images/bootstrap.png" alt=''/>
+          </div>
+        </div>
+        <div className="p-9">
+          <div className='h-[60px] w-[60px]'>
+            <img src="./images/javascript.png" alt=''/>
+          </div>
+        </div>
+        <div className="p-9">
+          <div className='h-[60px] w-[60px]'>
+            <img src="./images/java.png" alt=''/>
+          </div>
+        </div>
+        <div className="p-9">
+          <div className='h-[60px] w-[60px]'>
+            <img src="./images/python.png" alt=''/>
+          </div>
+        </div>
+        <div className="p-9">
+          <div className='h-[60px] w-[60px]'>
+            <img src="./images/nodejs.png" alt=''/>
+          </div>
+        </div>
+        <div className="p-9">
+          <div className='h-[60px] w-[60px]'>
+            <img src="./images/mongodb.png" alt=''/>
+          </div>
+        </div>
+      </div>
       <div className='flex flex-row'>
-      <div className="bg-white inline-block h-20 w-20 m-5" style={{ borderRadius: "10%" }}>
-        <svg
-          width="100%"
-          height="100%"
-          viewBox="0 0 250 250"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          className="h-full w-full">
-          <IoLogoHtml5 size="100%" />
-        </svg>
+        <div className="p-5 mt-6">
+          <div className='h-[70px] w-[70px]'>
+            <img src="./images/aws.png" alt=''/>
+          </div>
+        </div>
+        <div className="p-9">
+          <div className='h-[60px] w-[60px]'>
+            <img src="./images/git.png" alt=''/>
+          </div>
+        </div>
+        <div className="p-9">
+          <div className='h-[60px] w-[60px]'>
+            <img src="./images/react.png" alt=''/>
+          </div>
+        </div>
+        <div className="p-9">
+          <div className='h-[60px] w-[60px]'>
+            <img src="./images/redux.png" alt=''/>
+          </div>
+        </div>
+        <div className="p-9">
+          <div className='h-[60px] w-[60px]'>
+            <img src="./images/vscode.png" alt=''/>
+          </div>
+        </div>
+        <div className="p-9">
+          <div className='h-[60px] w-[60px]'>
+            <img src="./images/docker.png" alt=''/>
+          </div>
+        </div>
+        <div className="p-9">
+          <div className='h-[60px] w-[60px]'>
+            <img src="./images/agile.png" alt=''/>
+          </div>
+        </div>
+        <div className="p-9">
+          <div className='h-[60px] w-[60px]'>
+            <img src="./images/azurelogo.png" alt=''/>
+          </div>
+        </div>
+        <div className="mt-4 ml-4">
+          <div className='h-[100px] w-[100px] p-2'>
+            <img src="./images/mysql.png" alt=''/>
+          </div>
+        </div>
       </div>
-      <div className="bg-white inline-block h-20 w-20 m-5" style={{ borderRadius: "10%" }}>
-        <svg
-          width="100%"
-          height="100%"
-          viewBox="0 0 250 250"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          className="h-full w-full">
-          <FaCss3Alt size="100%" />
-        </svg>
-      </div>
-      <div className="bg-white inline-block h-20 w-20 m-5" style={{ borderRadius: "10%" }}>
-        
-      </div>
+      
       </div>
     </div>
   </div>
