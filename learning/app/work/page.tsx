@@ -39,11 +39,11 @@ const content = [
 
 const Work = () => {
   return (
-    <div className='h-[70rem] w-full pl-[40px] bg-neutral-950' >
+    <div className='h-[55rem] w-full pl-[40px] bg-neutral-950' >
     <div className="p-10">
       <h1 className='heading mb-3'>Projects</h1>
       <StickyScroll content={content} />
-      <div className='flex flex-col'>
+      <div className='flex flex-col mt-3'>
         <div className='flex flex-row ml-14'>
         <div className="p-9">
           <div className='h-[60px] w-[60px]'>

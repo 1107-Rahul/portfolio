@@ -44,15 +44,15 @@ export default function Home() {
       <div>
         <Work />
       </div>
-      <div id="contact" className="flex flex-row">
-          <div className="ml-10">
-            <h1 className="heading text-white ml-7">Get in touch</h1>
+      <div id="contact" className="flex  h-full w-full flex-row justify-center items-center">
+          <div className="">
+            <h1 className="heading text-white ml-10">Get in touch</h1>
             <Final />
           </div>
+          <div className="mb-48"> <GlobeDemo /> </div>
+            
       </div>
-      <div>
-        <GlobeDemo />
-      </div>
+      
     
     </div>
   );

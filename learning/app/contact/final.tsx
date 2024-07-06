@@ -5,7 +5,7 @@ import { FaPhoneSquareAlt } from "react-icons/fa";
 
 const Final = () => {
   return (
-    <div className='bg-white w-[350px] h-[300px] ml-10 mt-12'>
+    <div className='bg-white w-[350px] h-[300px] ml-10 mt-12 rounded-2xl'>
         <div className="artboard artboard-horizontal phone-2">
             <div className='flex flex-row pt-10'>
                 <div className='pt-1 pl-[60px]'>
