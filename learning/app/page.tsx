@@ -3,7 +3,7 @@ import Experience from "./experience/page";
 import HomePage from "./_pages/Home";
 import Work from "./work/page";
 import { FloatingNav } from "@/components/ui/floating-navbar";
-import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
+import { IconHome, IconMessage, IconUser, IconUserCircle } from "@tabler/icons-react";
 import GlobeDemo from "./_pages/GlobeDemo";
 import Final from "./contact/final";
 
@@ -18,7 +18,7 @@ export default function Home() {
     {
       name: "About",
       link: "#about",
-      icon: <IconHome className="h-4 w-4 text-neutral-500 dark:text-white" />,
+      icon: <IconUserCircle stroke={2} className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
       name: "Work",

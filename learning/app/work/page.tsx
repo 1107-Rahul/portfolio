@@ -44,7 +44,7 @@ const Work = () => {
       <h1 className='heading mb-3'>Projects</h1>
       <StickyScroll content={content} />
       <div className='flex flex-col mt-3'>
-        <div className='flex flex-row ml-14'>
+        <div className='flex flex-row ml-5'>
         <div className="p-9">
           <div className='h-[60px] w-[60px]'>
             <img src="./images/htmllogo.png" alt=''/>
@@ -87,42 +87,42 @@ const Work = () => {
         </div>
       </div>
       <div className='flex flex-row'>
-        <div className="p-5 mt-6">
+        <div className="p-4 mt-6">
           <div className='h-[70px] w-[70px]'>
             <img src="./images/aws.png" alt=''/>
           </div>
         </div>
-        <div className="p-9">
+        <div className="p-8">
           <div className='h-[60px] w-[60px]'>
             <img src="./images/git.png" alt=''/>
           </div>
         </div>
-        <div className="p-9">
+        <div className="p-8">
           <div className='h-[60px] w-[60px]'>
             <img src="./images/react.png" alt=''/>
           </div>
         </div>
-        <div className="p-9">
+        <div className="p-8">
           <div className='h-[60px] w-[60px]'>
             <img src="./images/redux.png" alt=''/>
           </div>
         </div>
-        <div className="p-9">
+        <div className="p-8">
           <div className='h-[60px] w-[60px]'>
             <img src="./images/vscode.png" alt=''/>
           </div>
         </div>
-        <div className="p-9">
+        <div className="p-8">
           <div className='h-[60px] w-[60px]'>
             <img src="./images/docker.png" alt=''/>
           </div>
         </div>
-        <div className="p-9">
+        <div className="p-8">
           <div className='h-[60px] w-[60px]'>
             <img src="./images/agile.png" alt=''/>
           </div>
         </div>
-        <div className="p-9">
+        <div className="p-8">
           <div className='h-[60px] w-[60px]'>
             <img src="./images/azurelogo.png" alt=''/>
           </div>

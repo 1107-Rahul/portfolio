@@ -4,7 +4,7 @@ import { useGLTF } from '@react-three/drei'
 export default function Desktop(props) {
   const { nodes, materials } = useGLTF('/myDesktopSet.glb')
   return (
-    <group {...props} dispose={null}>
+    <group {...props} dispose={null} scale={[5,5,5]}>
       <mesh
         castShadow
         receiveShadow
