@@ -19,7 +19,7 @@ export default function HomePage() {
       
       <BackgroundBeams />
       <div className="text-center">
-        <h1 className="heading z-20">Hi, I'm Rahul</h1>
+        <h1 className="heading z-20">Hi, I am Rahul</h1>
       </div>
       <TextGenerateEffect className="text-center w-[700px] z-20 text-[20px]" words="Versatile software professional with a proven track record of delivering high-quality, innovative
          solutions across the full software development lifecycle." />
